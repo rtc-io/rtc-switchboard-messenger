@@ -1,0 +1,24 @@
+{
+  "name": "rtc-switchboard-messenger",
+  "version": "1.0.0",
+  "description": "A specialised messenger-ws implementation that knows how to connect to a rtc-switchboard instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rtc-io/rtc-switchboard-messenger.git"
+  },
+  "keywords": [
+    "webrtc",
+    "messenger",
+    "rtc.io"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@nicta.com.au>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/rtc-io/rtc-switchboard-messenger/issues"
+  },
+  "homepage": "https://github.com/rtc-io/rtc-switchboard-messenger"
+}
