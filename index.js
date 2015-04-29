@@ -11,6 +11,6 @@ var extend = require('cog/extend');
 **/
 module.exports = function(switchboard, opts) {
   return require('messenger-ws')(switchboard, extend({
-    endpoints: ['/primus', '/']
+    endpoints: (opts || {}).endpoints || ['/']
   }, opts));
 };
