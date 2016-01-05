@@ -5,6 +5,14 @@ node_js:
 - 4.1
 - stable
 
+env:
+  matrix:
+    - BROWSER=chrome  BVER=stable
+    - BROWSER=firefox BVER=stable
+
+matrix:
+  fast_finish: true
+
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
