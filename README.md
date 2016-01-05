@@ -5,11 +5,7 @@ A specialised version of
 connect to [`rtc-switchboard`](http://github.com/rtc-io/rtc-switchboard)
 instances.
 
-[![NPM](https://nodei.co/npm/rtc-switchboard-messenger.png)](https://nodei.co/npm/rtc-switchboard-messenger/)
-
-[![unstable](https://img.shields.io/badge/stability-unstable-yellowgreen.svg)](https://github.com/dominictarr/stability#unstable)
-
-[![Build Status](https://travis-ci.org/rtc-io/rtc-switchboard-messenger.svg?branch=master)](https://travis-ci.org/rtc-io/rtc-switchboard-messenger)
+[![npm version](https://badge.fury.io/js/rtc-switchboard-messenger.svg)](https://badge.fury.io/js/rtc-switchboard-messenger) [![unstable](https://img.shields.io/badge/stability-unstable-yellowgreen.svg)](https://github.com/dominictarr/stability#unstable) [![Build Status](https://travis-ci.org/rtc-io/rtc-switchboard-messenger.svg?branch=master)](https://travis-ci.org/rtc-io/rtc-switchboard-messenger)
 
 ## Important Note
 
