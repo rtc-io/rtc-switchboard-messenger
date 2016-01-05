@@ -24,6 +24,6 @@
   "homepage": "https://github.com/rtc-io/rtc-switchboard-messenger",
   "dependencies": {
     "cog": "^1.0.0",
-    "messenger-ws": "^2.0.2"
+    "messenger-ws": "^3.0.1"
   }
 }
