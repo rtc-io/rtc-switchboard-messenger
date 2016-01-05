@@ -7,7 +7,9 @@ instances.
 
 [![NPM](https://nodei.co/npm/rtc-switchboard-messenger.png)](https://nodei.co/npm/rtc-switchboard-messenger/)
 
-[![unstable](https://img.shields.io/badge/stability-unstable-yellowgreen.svg)](https://github.com/dominictarr/stability#unstable) 
+[![unstable](https://img.shields.io/badge/stability-unstable-yellowgreen.svg)](https://github.com/dominictarr/stability#unstable)
+
+[![Build Status](https://img.shields.io/travis/rtc-io//rtc-switchboard-messenger.svg?branch=master)](https://travis-ci.org/rtc-io/rtc-switchboard-messenger)
 
 
 ## License(s)
