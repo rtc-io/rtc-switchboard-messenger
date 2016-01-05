@@ -5,7 +5,16 @@ node_js:
 - 4.1
 - stable
 
+env:
+  matrix:
+    - BROWSER=chrome  BVER=stable
+    - BROWSER=firefox BVER=stable
+
+matrix:
+  fast_finish: true
+
 before_script:
+  - ./node_modules/travis-multirunner/setup.sh
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
 

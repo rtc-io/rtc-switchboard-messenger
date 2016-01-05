@@ -4,7 +4,8 @@
   "description": "A specialised messenger-ws implementation that knows how to connect to a rtc-switchboard instance",
   "main": "index.js",
   "scripts": {
-    "test": "node test/all.js",
+    "test": "node test/all.js && npm run test-browser",
+    "test-browser": "browserify test/all.js | broth ./node_modules/travis-multirunner/start.sh | tap-spec",
     "gendocs": "gendocs > README.md"
   },
   "repository": {
@@ -27,6 +28,18 @@
     "messenger-ws": "^3.0.1"
   },
   "devDependencies": {
-    "tape": "^4.4.0"
+    "broth": "^2.2.0",
+    "browserify": "^12.0.1",
+    "browserify-optional": "^1.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0",
+    "through2": "^2.0.0",
+    "travis-multirunner": "^3.0.0",
+    "viralify": "^0.4.2"
+  },
+  "browserify": {
+    "transform": [
+      "./build.js"
+    ]
   }
 }
