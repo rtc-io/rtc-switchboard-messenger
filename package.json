@@ -1,6 +1,6 @@
 {
   "name": "rtc-switchboard-messenger",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "A specialised messenger-ws implementation that knows how to connect to a rtc-switchboard instance",
   "main": "index.js",
   "scripts": {
