@@ -11,6 +11,9 @@ instances.
 
 [![Build Status](https://img.shields.io/travis/rtc-io//rtc-switchboard-messenger.svg?branch=master)](https://travis-ci.org/rtc-io/rtc-switchboard-messenger)
 
+## Important Note
+
+With the 3.0 release, the `bufferutil` and `utf-8-validate` packages are no longer included by default in either `messenger-ws` or `rtc-switchboard-messenger`. These are recommended and should be included if your use case requires it.
 
 ## License(s)
 
