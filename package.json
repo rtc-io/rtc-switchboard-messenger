@@ -4,7 +4,7 @@
   "description": "A specialised messenger-ws implementation that knows how to connect to a rtc-switchboard instance",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test/all.js",
     "gendocs": "gendocs > README.md"
   },
   "repository": {
@@ -24,6 +24,9 @@
   "homepage": "https://github.com/rtc-io/rtc-switchboard-messenger",
   "dependencies": {
     "cog": "^1.0.0",
-    "messenger-ws": "^2.0.2"
+    "messenger-ws": "^3.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.4.0"
   }
 }
