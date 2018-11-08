@@ -33,7 +33,7 @@
     "browserify": "^16.2.3",
     "tap-spec": "^5.0.0",
     "tape": "^4.4.0",
-    "travis-multirunner": "^3.0.0"
+    "travis-multirunner": "^4.5.0"
   },
   "browserify": {}
 }
